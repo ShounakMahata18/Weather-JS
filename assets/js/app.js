@@ -222,7 +222,7 @@ export const updateWeather = (lat, lon) => {
                                     <p class="label-1">PM<sub>10</sub></p>
                                 </li>
                                 <li class="card-item">
-                                    <p class="title-1">${co.toPrecision(3)}</p>
+                                    <p class="title-1">${co.toPrecision(4)}</p>
                                     
                                     <p class="label-1">CO</p>
                                 </li>
